@@ -1,0 +1,7 @@
+{
+    "nome": "Gabriel Barbosa",
+    "idade": 27,
+    "posicao": "Atacante",
+    "time_id": { "$oid": "674755239c01ce493d614107" }
+  }
+  

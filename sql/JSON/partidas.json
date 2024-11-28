@@ -1,0 +1,16 @@
+{
+    "data": "2024-11-27T15:00:00Z",
+    "time_casa": {
+      "id":  { "$oid": "674755239c01ce493d614107" }, 
+      "nome": "Flamengo"
+    },
+    "time_visitante": {
+      "id": { "$oid": "674755239c01ce493d614107" },
+      "nome": "Palmeiras"
+    },
+    "placar": {
+      "casa": 2,
+      "visitante": 1
+    }
+  }
+  
