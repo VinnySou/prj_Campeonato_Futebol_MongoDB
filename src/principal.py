@@ -48,7 +48,7 @@ def atualizar(opcao_atualizar:int=0):
         relatorio.get_relatorio_estadios()
         estadios_atualizado = ctrl_estadios.atualizar_estadio()
     elif opcao_atualizar == 2:
-        # relatorio.get_relatorio_times()
+        relatorio.get_relatorio_times()
         time_atualizado = ctrl_times.atualizar_time()
     elif opcao_atualizar == 3:
         relatorio.get_relatorio_jogadores()
@@ -63,7 +63,7 @@ def excluir(opcao_excluir:int=0):
         relatorio.get_relatorio_estadios()
         ctrl_estadios.excluir_estadios()
     elif opcao_excluir == 2:                
-        # relatorio.get_relatorio_times()
+        relatorio.get_relatorio_times()
         ctrl_times.excluir_times()
     elif opcao_excluir == 3:                
         relatorio.get_relatorio_jogadores()
